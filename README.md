@@ -1,2 +1,2 @@
 # BluetoothChat
-This includes just two files (client.py and server.py), which allows one to easily chat with another computer running the same software.
+With the simple goal of allowing the user to chat with other individuals running the software, this project uses just two files (client.py and server.py), which allows one to easily chat with another computer running the same software. It uses the PyBluez API, but attempts to be as lightweight as possible. In the current version it will even beep to alert the user a new message was received.
