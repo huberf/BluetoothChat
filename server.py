@@ -28,8 +28,8 @@ try:
     while True:
         data = client_sock.recv(1024)
         if len(data) == 0: break
-        print ""
-        print lookup_name( client_info[0] ) + "> " + data
+        print("")
+        print(lookup_name( client_info[0] ) + "> " + str(data))
         winsound.Beep(freq, dur)
 except IOError:
     pass

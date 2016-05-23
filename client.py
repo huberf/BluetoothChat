@@ -36,7 +36,7 @@ sock.connect((host, port))
 print("Connected. Begin messaging...")
 while True:
     data = input("> ")
-    print ""
+    print("")
     if len(data) == 0: break
     sock.send(data)
 
